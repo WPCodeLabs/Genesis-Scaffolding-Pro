@@ -1,0 +1,140 @@
+@mixin clearfix {
+    &:after, &:before {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+@mixin breakpoint( $break ) {
+    @if map-has-key( $breakpoints, $break ) {
+        @media ( min-width: #{ map-get( $breakpoints, $break ) } ) {
+            @content;
+        }
+    }
+    @else {
+        @media ( $break ) {
+            @content;
+        }
+    }
+}
+@mixin box-style() {
+	background-color: #fff;
+	padding: $padding;
+	margin-bottom: $spacing;
+	border: 1px solid $border-color;
+}
+// retrieve breakpoint for min vs max declerations
+@function breakpoints( $size ) {
+  // map inception
+  @return map-get($breakpoints, $size );
+}
+
+@mixin image-replacement( $image ) {
+    display: block;
+    background-image: url( $image );
+    background-repeat: no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+@mixin flexbox( $direction:'' ) {
+    display: flex;
+    @if( $direction == 'row' ) {
+        flex-direction: row;
+    }
+    @if( $direction == 'column' ) {
+        flex-direction: column;
+    }
+}
+@mixin invisible() {
+    clip: rect(0px, 0px, 0px, 0px);
+    -webkit-clip-path: rect( 0px 0px, 0px 0px, 0px 0px, 0px 0px);
+    clip-path: rect( 0px 0px, 0px 0px, 0px 0px, 0px 0px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+
+@function calculateRem( $size ) {
+	$remSize: parseInt( $size ) / parseInt( 16 );
+	@return #{$remSize}rem;
+}
+
+@function RmToPx( $size ) {
+	$pxSize: $size *  parseInt( $base-font-size );
+	@return #{$pxSize};
+}
+
+@function SizePlusPadding( $size, $pad ) {
+	@return ( parseInt( $pad ) * $base-font-size ) + $size;
+}
+
+@mixin fontSize( $size ) {
+	font-size: #{parseInt($size)}px; //Fallback in px
+	font-size: calculateRem( $size );
+}
+
+@mixin flexboxWidth( $size ) {
+	min-width: ( parseInt( $gutter ) * $base-font-size ) + $size;
+	max-width: ( parseInt( $gutter ) * $base-font-size ) + $size;
+}
+
+@function convertUnits( $value, $currentUnit, $convertUnit, $base:$base-font-size ){
+	@if $currentUnit == 'rem' {
+		@if $convertUnit == 'em' {
+            $diff : 16 / parseInt( $base );
+            @return parseInt( $value ) * $diff + 0em;
+		}
+		@else if $convertUnit == 'px' {
+            @return parseInt( $value ) * 16 + 0px;
+        }
+        @else {
+            @return $value;
+        }
+	}
+	@else if $currentUnit == 'em' {
+    	@if $convertUnit == 'rem' {
+            $diff : parseInt( $base ) / 16;
+            @return parseInt( $value ) * $diff + 0em;
+		}
+		@else if $convertUnit == 'px' {
+            @return parseInt( $value ) * parseInt( $base ) + 0px;
+        }
+        @else {
+            @return $value;
+        }
+	}
+	@else if $currentUnit == 'px' {
+		@if $convertUnit == 'em' {
+            @return ( parseInt( $value ) / parseInt( $base ) ) + 0em;
+		}
+		@else if $convertUnit == 'rem' {
+            @return ( parseInt( $value ) / 16 ) + 0rem;
+        }
+        @else {
+            @return $value;
+        }
+    }
+    @else {
+        @return $value;
+    }
+}
+
+// Convert our breakpoints into EM units, using the browsers internal font settings of 16px
+@each $breakpoint, $size in $breakpoints {
+    $breakpoints : map-merge( $breakpoints, ( $breakpoint : convertUnits( $size, unit( $size ), 'em', 16 ) ) );
+}
+// Convert our width calculations to EM units
+$primary-sidebar-fixed-width   : convertUnits( $primary-sidebar-fixed-width, unit( $primary-sidebar-fixed-width ), 'em' );
+$secondary-sidebar-fixed-width : convertUnits( $secondary-sidebar-fixed-width, unit( $secondary-sidebar-fixed-width), 'em' );
+$max-width : convertUnits( $max-width , unit( $max-width ), 'em' );
+// $spacing : convertUnits( $spacing , unit( $spacing ), 'em' );
+$padding : convertUnits( $padding , unit( $padding ), 'em' );
+$gutter : convertUnits( $gutter , unit( $gutter ), 'em' ); // Used to create gutters on the grid

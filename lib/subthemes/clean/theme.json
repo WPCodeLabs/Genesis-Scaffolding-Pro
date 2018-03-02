@@ -1,0 +1,101 @@
+{
+	"settings" : {
+		"dev_mode" : false,
+		"archives" : "grid"
+	},
+	"styles" : {
+		"google_fonts" : "//fonts.googleapis.com/css?family=Hind:300,400,500,600&amp;subset=latin-ext"
+	},
+	"layout" : {
+		"global": {
+			"genesis_header":[
+				"genesis_do_header",
+				"genesis_do_nav"
+			],
+			"genesis_after_header":[
+				"gsp_do_jumbotron",
+				"gsp_do_breadcrumbs"
+			],
+			"genesis_before_loop":[
+				"genesis_do_cpt_archive_title_description",
+				"genesis_do_posts_page_heading",
+				"genesis_do_date_archive_title",
+				"genesis_do_taxonomy_title_description",
+				"genesis_do_author_title_description",
+				"genesis_do_blog_template_heading"
+			],
+			"genesis_entry_header":[
+				"genesis_do_post_image",
+				"genesis_do_post_format_image",
+				"genesis_do_post_title",
+				"genesis_post_info"
+			],
+			"genesis_entry_content":[
+				"genesis_do_post_content",
+				"genesis_do_post_content_nav",
+				"genesis_do_post_permalink"
+			],
+			"genesis_entry_footer":[
+				"genesis_post_meta"
+			],
+			"genesis_before_footer":[
+				"gsp_do_widget_areas"
+			],
+			"genesis_footer":[
+				"genesis_do_footer"
+			]
+		},
+		"archive" : {
+			"genesis_entry_header":[
+				"genesis_do_post_image"
+			],
+			"genesis_entry_content":[
+				"genesis_do_post_title"
+			],
+			"genesis_entry_footer":[]
+		},
+		"frontpage" : {
+		},
+		"landing": {
+			"genesis_header":[
+				"genesis_do_header"
+			],
+			"genesis_after_header":[
+			],
+			"genesis_before_loop":[
+			],
+			"genesis_entry_footer":[
+			],
+			"genesis_before_footer":[
+			]
+		}
+	},
+	"jumbotron" : {
+		"global" : [
+			"gsp_jumbotron_headlines",
+			"genesis_post_info"
+		],
+		"archive" : [
+			"gsp_jumbotron_headlines"
+		]
+	},
+	"navigation" : {
+		"primary" : "dropdown",
+		"secondary" : "combined"
+	},
+	"wraps" : [
+		"menu-primary",
+		"menu-secondary",
+		"site-inner",
+		"before-header-widgets",
+		"after-header-widgets",
+		"after-content-widgets",
+		"before-footer-widgets",
+		"footer-widgets",
+		"footer",
+		"jumbotron",
+		"breadcrumbs"
+	]
+}
+
+

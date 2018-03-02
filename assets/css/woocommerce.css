@@ -1,0 +1,1169 @@
+.woocommerce-store-notice,
+p.demo_store {}
+
+.woocommerce-store-notice a,
+p.demo_store a {}
+
+.screen-reader-text {}
+
+.admin-bar p.demo_store {}
+
+.clear {}
+
+.woocommerce .blockUI.blockOverlay {}
+
+.woocommerce .blockUI.blockOverlay::before {}
+
+.woocommerce .loader::before {}
+
+.woocommerce a.remove {}
+
+.woocommerce a.remove:hover {}
+
+.woocommerce small.note {}
+
+.woocommerce .woocommerce-breadcrumb {}
+
+.woocommerce .woocommerce-breadcrumb::after,
+.woocommerce .woocommerce-breadcrumb::before {}
+
+.woocommerce .woocommerce-breadcrumb::after {}
+
+.woocommerce .woocommerce-breadcrumb a {}
+
+.woocommerce .quantity .qty {}
+
+.woocommerce div.product {}
+
+.woocommerce div.product .product_title {}
+
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {}
+
+.woocommerce div.product p.price ins,
+.woocommerce div.product span.price ins {}
+
+.woocommerce div.product p.price del,
+.woocommerce div.product span.price del {}
+
+.woocommerce div.product p.stock {}
+
+.woocommerce div.product .stock {}
+
+.woocommerce div.product .out-of-stock {}
+
+.woocommerce div.product .woocommerce-product-rating {}
+
+.woocommerce div.product div.images {}
+
+.woocommerce div.product div.images img {}
+
+.woocommerce div.product div.images div.thumbnails {}
+
+.woocommerce div.product div.images.woocommerce-product-gallery {}
+
+.woocommerce div.product div.images .woocommerce-product-gallery__wrapper {}
+
+.woocommerce div.product div.images .woocommerce-product-gallery__wrapper .zoomImg {}
+
+.woocommerce div.product div.images .woocommerce-product-gallery__image:nth-child(n+2) {}
+
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger {}
+
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger:before {}
+
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger:after {}
+
+.woocommerce div.product div.images .flex-control-thumbs {}
+
+.woocommerce div.product div.images .flex-control-thumbs li {}
+
+.woocommerce div.product div.images .flex-control-thumbs li img {}
+
+.woocommerce div.product div.images .flex-control-thumbs li img.flex-active,
+.woocommerce div.product div.images .flex-control-thumbs li img:hover {}
+
+.woocommerce div.product .woocommerce-product-gallery--columns-3 .flex-control-thumbs li:nth-child(3n+1) {}
+
+.woocommerce div.product .woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n+1) {}
+
+.woocommerce div.product .woocommerce-product-gallery--columns-5 .flex-control-thumbs li:nth-child(5n+1) {}
+
+.woocommerce div.product div.summary {}
+
+.woocommerce div.product div.social {}
+
+.woocommerce div.product div.social span {}
+
+.woocommerce div.product div.social span span {}
+
+.woocommerce div.product div.social span .stButton .chicklets {}
+
+.woocommerce div.product div.social iframe {}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs {}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a {}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover {}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a {}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active::before {}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active::after {}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li::after,
+.woocommerce div.product .woocommerce-tabs ul.tabs li::before {}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li::before {}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li::after {}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs::before {}
+
+.woocommerce div.product .woocommerce-tabs .panel {}
+
+.woocommerce div.product p.cart {}
+
+.woocommerce div.product p.cart::after,
+.woocommerce div.product p.cart::before {}
+
+.woocommerce div.product p.cart::after {}
+
+.woocommerce div.product form.cart {}
+
+.woocommerce div.product form.cart::after,
+.woocommerce div.product form.cart::before {}
+
+.woocommerce div.product form.cart::after {}
+
+.woocommerce div.product form.cart div.quantity {}
+
+.woocommerce div.product form.cart table {}
+
+.woocommerce div.product form.cart table td {}
+
+.woocommerce div.product form.cart table div.quantity {}
+
+.woocommerce div.product form.cart table small.stock {}
+
+.woocommerce div.product form.cart .variations {}
+
+.woocommerce div.product form.cart .variations td,
+.woocommerce div.product form.cart .variations th {}
+
+.woocommerce div.product form.cart .variations label {}
+
+.woocommerce div.product form.cart .variations select {}
+
+.woocommerce div.product form.cart .variations td.label {}
+
+.woocommerce div.product form.cart .woocommerce-variation-description p {}
+
+.woocommerce div.product form.cart .reset_variations {}
+
+.woocommerce div.product form.cart .wc-no-matching-variations {}
+
+.woocommerce div.product form.cart .button {}
+
+.woocommerce div.product form.cart .group_table td.label {}
+
+.woocommerce div.product form.cart .group_table td {}
+
+.woocommerce div.product form.cart .group_table td:first-child {}
+
+.woocommerce div.product form.cart .group_table .wc-grouped-product-add-to-cart-checkbox {}
+
+.woocommerce span.onsale {}
+
+.woocommerce .products ul,
+.woocommerce ul.products {}
+
+.woocommerce .products ul::after,
+.woocommerce .products ul::before,
+.woocommerce ul.products::after,
+.woocommerce ul.products::before {}
+
+.woocommerce .products ul::after,
+.woocommerce ul.products::after {}
+
+.woocommerce .products ul li,
+.woocommerce ul.products li {}
+
+.woocommerce ul.products li.product .onsale {}
+
+.woocommerce ul.products li.product .woocommerce-loop-category__title,
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
+.woocommerce ul.products li.product h3 {}
+
+.woocommerce ul.products li.product a {}
+
+.woocommerce ul.products li.product a img {}
+
+.woocommerce ul.products li.product strong {}
+
+.woocommerce ul.products li.product .star-rating {}
+
+.woocommerce ul.products li.product .button {}
+
+.woocommerce ul.products li.product .price {}
+
+.woocommerce ul.products li.product .price del {}
+
+.woocommerce ul.products li.product .price ins {}
+
+.woocommerce ul.products li.product .price .from {}
+
+.woocommerce .woocommerce-result-count {}
+
+.woocommerce .woocommerce-ordering {}
+
+.woocommerce .woocommerce-ordering select {}
+
+.woocommerce nav.woocommerce-pagination {}
+
+.woocommerce nav.woocommerce-pagination ul {}
+
+.woocommerce nav.woocommerce-pagination ul li {}
+
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span {}
+
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current {}
+
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {}
+
+.woocommerce #respond input#submit.loading,
+.woocommerce a.button.loading,
+.woocommerce button.button.loading,
+.woocommerce input.button.loading {}
+
+.woocommerce #respond input#submit.loading::after,
+.woocommerce a.button.loading::after,
+.woocommerce button.button.loading::after,
+.woocommerce input.button.loading::after {}
+
+.woocommerce #respond input#submit.added::after,
+.woocommerce a.button.added::after,
+.woocommerce button.button.added::after,
+.woocommerce input.button.added::after {}
+
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover {}
+
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {}
+
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover {}
+
+.woocommerce #respond input#submit.alt.disabled,
+.woocommerce #respond input#submit.alt.disabled:hover,
+.woocommerce #respond input#submit.alt:disabled,
+.woocommerce #respond input#submit.alt:disabled:hover,
+.woocommerce #respond input#submit.alt:disabled[disabled],
+.woocommerce #respond input#submit.alt:disabled[disabled]:hover,
+.woocommerce a.button.alt.disabled,
+.woocommerce a.button.alt.disabled:hover,
+.woocommerce a.button.alt:disabled,
+.woocommerce a.button.alt:disabled:hover,
+.woocommerce a.button.alt:disabled[disabled],
+.woocommerce a.button.alt:disabled[disabled]:hover,
+.woocommerce button.button.alt.disabled,
+.woocommerce button.button.alt.disabled:hover,
+.woocommerce button.button.alt:disabled,
+.woocommerce button.button.alt:disabled:hover,
+.woocommerce button.button.alt:disabled[disabled],
+.woocommerce button.button.alt:disabled[disabled]:hover,
+.woocommerce input.button.alt.disabled,
+.woocommerce input.button.alt.disabled:hover,
+.woocommerce input.button.alt:disabled,
+.woocommerce input.button.alt:disabled:hover,
+.woocommerce input.button.alt:disabled[disabled],
+.woocommerce input.button.alt:disabled[disabled]:hover {}
+
+.woocommerce #respond input#submit.disabled,
+.woocommerce #respond input#submit:disabled,
+.woocommerce #respond input#submit:disabled[disabled],
+.woocommerce a.button.disabled,
+.woocommerce a.button:disabled,
+.woocommerce a.button:disabled[disabled],
+.woocommerce button.button.disabled,
+.woocommerce button.button:disabled,
+.woocommerce button.button:disabled[disabled],
+.woocommerce input.button.disabled,
+.woocommerce input.button:disabled,
+.woocommerce input.button:disabled[disabled] {}
+
+.woocommerce #respond input#submit.disabled:hover,
+.woocommerce #respond input#submit:disabled:hover,
+.woocommerce #respond input#submit:disabled[disabled]:hover,
+.woocommerce a.button.disabled:hover,
+.woocommerce a.button:disabled:hover,
+.woocommerce a.button:disabled[disabled]:hover,
+.woocommerce button.button.disabled:hover,
+.woocommerce button.button:disabled:hover,
+.woocommerce button.button:disabled[disabled]:hover,
+.woocommerce input.button.disabled:hover,
+.woocommerce input.button:disabled:hover,
+.woocommerce input.button:disabled[disabled]:hover {}
+
+.woocommerce .cart .button,
+.woocommerce .cart input.button {}
+
+.woocommerce a.added_to_cart {}
+
+.woocommerce #reviews h2 small {}
+
+.woocommerce #reviews h2 small a {}
+
+.woocommerce #reviews h3 {}
+
+.woocommerce #reviews #respond {}
+
+.woocommerce #reviews #comment {}
+
+.woocommerce #reviews #comments .add_review::after,
+.woocommerce #reviews #comments .add_review::before {}
+
+.woocommerce #reviews #comments .add_review::after {}
+
+.woocommerce #reviews #comments h2 {}
+
+.woocommerce #reviews #comments ol.commentlist {}
+
+.woocommerce #reviews #comments ol.commentlist::after,
+.woocommerce #reviews #comments ol.commentlist::before {}
+
+.woocommerce #reviews #comments ol.commentlist::after {}
+
+.woocommerce #reviews #comments ol.commentlist li {}
+
+.woocommerce #reviews #comments ol.commentlist li .meta {}
+
+.woocommerce #reviews #comments ol.commentlist li img.avatar {}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text {}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text::after,
+.woocommerce #reviews #comments ol.commentlist li .comment-text::before {}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text::after {}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text p {}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text p.meta {}
+
+.woocommerce #reviews #comments ol.commentlist ul.children {}
+
+.woocommerce #reviews #comments ol.commentlist ul.children .star-rating {}
+
+.woocommerce #reviews #comments ol.commentlist #respond {}
+
+.woocommerce #reviews #comments .commentlist>li::before {}
+
+.woocommerce .star-rating {}
+
+.woocommerce .star-rating::before {}
+
+.woocommerce .star-rating span {}
+
+.woocommerce .star-rating span::before {}
+
+.woocommerce .woocommerce-product-rating {}
+
+.woocommerce .woocommerce-product-rating::after,
+.woocommerce .woocommerce-product-rating::before {}
+
+.woocommerce .woocommerce-product-rating::after {}
+
+.woocommerce .woocommerce-product-rating .star-rating {}
+
+.woocommerce .products .star-rating {}
+
+.woocommerce .hreview-aggregate .star-rating {}
+
+.woocommerce #review_form #respond {}
+
+.woocommerce #review_form #respond::after,
+.woocommerce #review_form #respond::before {}
+
+.woocommerce #review_form #respond::after {}
+
+.woocommerce #review_form #respond p {}
+
+.woocommerce #review_form #respond .form-submit input {}
+
+.woocommerce #review_form #respond textarea {}
+
+.woocommerce p.stars a {}
+
+.woocommerce p.stars a::before {}
+
+.woocommerce p.stars a:hover~a::before {}
+
+.woocommerce p.stars:hover a::before {}
+
+.woocommerce p.stars.selected a.active::before {}
+
+.woocommerce p.stars.selected a.active~a::before {}
+
+.woocommerce p.stars.selected a:not(.active)::before {}
+
+.woocommerce table.shop_attributes {}
+
+.woocommerce table.shop_attributes th {}
+
+.woocommerce table.shop_attributes td {}
+
+.woocommerce table.shop_attributes td p {}
+
+.woocommerce table.shop_attributes tr:nth-child(even) td,
+.woocommerce table.shop_attributes tr:nth-child(even) th {}
+
+.woocommerce table.shop_table {}
+
+.woocommerce table.shop_table th {}
+
+.woocommerce table.shop_table td {}
+
+.woocommerce table.shop_table td small {}
+
+.woocommerce table.shop_table tbody:first-child tr:first-child td,
+.woocommerce table.shop_table tbody:first-child tr:first-child th {}
+
+.woocommerce table.shop_table tbody th,
+.woocommerce table.shop_table tfoot td,
+.woocommerce table.shop_table tfoot th {}
+
+.woocommerce table.my_account_orders {}
+
+.woocommerce table.my_account_orders td,
+.woocommerce table.my_account_orders th {}
+
+.woocommerce table.my_account_orders .button {}
+
+.woocommerce table.my_account_orders .order-actions {}
+
+.woocommerce table.my_account_orders .order-actions .button {}
+
+.woocommerce table.woocommerce-MyAccount-downloads td,
+.woocommerce table.woocommerce-MyAccount-downloads th {}
+
+.woocommerce table.woocommerce-MyAccount-downloads td:first-child,
+.woocommerce table.woocommerce-MyAccount-downloads th:first-child {}
+
+.woocommerce table.woocommerce-MyAccount-downloads td:last-child,
+.woocommerce table.woocommerce-MyAccount-downloads th:last-child {}
+
+.woocommerce table.woocommerce-MyAccount-downloads td .woocommerce-MyAccount-downloads-file::before,
+.woocommerce table.woocommerce-MyAccount-downloads th .woocommerce-MyAccount-downloads-file::before {}
+
+.woocommerce td.product-name .wc-item-meta,
+.woocommerce td.product-name dl.variation {}
+
+.woocommerce td.product-name .wc-item-meta .wc-item-meta-label,
+.woocommerce td.product-name .wc-item-meta dt,
+.woocommerce td.product-name dl.variation .wc-item-meta-label,
+.woocommerce td.product-name dl.variation dt {}
+
+.woocommerce td.product-name .wc-item-meta dd,
+.woocommerce td.product-name dl.variation dd {}
+
+.woocommerce td.product-name .wc-item-meta p,
+.woocommerce td.product-name .wc-item-meta:last-child,
+.woocommerce td.product-name dl.variation p,
+.woocommerce td.product-name dl.variation:last-child {}
+
+.woocommerce td.product-name p.backorder_notification {}
+
+.woocommerce td.product-quantity {}
+
+.woocommerce ul.cart_list,
+.woocommerce ul.product_list_widget {}
+
+.woocommerce ul.cart_list li,
+.woocommerce ul.product_list_widget li {}
+
+.woocommerce ul.cart_list li::after,
+.woocommerce ul.cart_list li::before,
+.woocommerce ul.product_list_widget li::after,
+.woocommerce ul.product_list_widget li::before {}
+
+.woocommerce ul.cart_list li::after,
+.woocommerce ul.product_list_widget li::after {}
+
+.woocommerce ul.cart_list li a,
+.woocommerce ul.product_list_widget li a {}
+
+.woocommerce ul.cart_list li img,
+.woocommerce ul.product_list_widget li img {}
+
+.woocommerce ul.cart_list li dl,
+.woocommerce ul.product_list_widget li dl {}
+
+.woocommerce ul.cart_list li dl::after,
+.woocommerce ul.cart_list li dl::before,
+.woocommerce ul.product_list_widget li dl::after,
+.woocommerce ul.product_list_widget li dl::before {}
+
+.woocommerce ul.cart_list li dl::after,
+.woocommerce ul.product_list_widget li dl::after {}
+
+.woocommerce ul.cart_list li dl dd,
+.woocommerce ul.cart_list li dl dt,
+.woocommerce ul.product_list_widget li dl dd,
+.woocommerce ul.product_list_widget li dl dt {}
+
+.woocommerce ul.cart_list li dl dt,
+.woocommerce ul.product_list_widget li dl dt {}
+
+.woocommerce ul.cart_list li dl dd,
+.woocommerce ul.product_list_widget li dl dd {}
+
+.woocommerce ul.cart_list li dl dd p:last-child,
+.woocommerce ul.product_list_widget li dl dd p:last-child {}
+
+.woocommerce ul.cart_list li .star-rating,
+.woocommerce ul.product_list_widget li .star-rating {}
+
+.woocommerce .widget_shopping_cart .total,
+.woocommerce.widget_shopping_cart .total {}
+
+.woocommerce .widget_shopping_cart .total strong,
+.woocommerce.widget_shopping_cart .total strong {}
+
+.woocommerce .widget_shopping_cart .cart_list li,
+.woocommerce.widget_shopping_cart .cart_list li {}
+
+.woocommerce .widget_shopping_cart .cart_list li a.remove,
+.woocommerce.widget_shopping_cart .cart_list li a.remove {}
+
+.woocommerce .widget_shopping_cart .buttons::after,
+.woocommerce .widget_shopping_cart .buttons::before,
+.woocommerce.widget_shopping_cart .buttons::after,
+.woocommerce.widget_shopping_cart .buttons::before {}
+
+.woocommerce .widget_shopping_cart .buttons::after,
+.woocommerce.widget_shopping_cart .buttons::after {}
+
+.woocommerce .widget_shopping_cart .buttons a,
+.woocommerce.widget_shopping_cart .buttons a {}
+
+.woocommerce form .form-row {}
+
+.woocommerce form .form-row [placeholder]:focus::-webkit-input-placeholder {}
+
+.woocommerce form .form-row label {}
+
+.woocommerce form .form-row label.hidden {}
+
+.woocommerce form .form-row label.inline {}
+
+.woocommerce form .form-row select {}
+
+.woocommerce form .form-row .required {}
+
+.woocommerce form .form-row .input-checkbox {}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea {}
+
+.woocommerce form .form-row textarea {}
+
+.woocommerce form .form-row .select2-container {}
+
+.woocommerce form .form-row.woocommerce-invalid label {}
+
+.woocommerce form .form-row.woocommerce-invalid .select2-container,
+.woocommerce form .form-row.woocommerce-invalid input.input-text,
+.woocommerce form .form-row.woocommerce-invalid select {}
+
+.woocommerce form .form-row.woocommerce-validated .select2-container,
+.woocommerce form .form-row.woocommerce-validated input.input-text,
+.woocommerce form .form-row.woocommerce-validated select {}
+
+.woocommerce form .form-row::-webkit-input-placeholder {}
+
+.woocommerce form .form-row:-moz-placeholder {}
+
+.woocommerce form .form-row:-ms-input-placeholder {}
+
+.woocommerce form.checkout_coupon,
+.woocommerce form.login,
+.woocommerce form.register {}
+
+.woocommerce ul#shipping_method {}
+
+.woocommerce ul#shipping_method li {}
+
+.woocommerce ul#shipping_method li input {}
+
+.woocommerce ul#shipping_method li label {}
+
+.woocommerce ul#shipping_method .amount {}
+
+.woocommerce p.woocommerce-shipping-contents {}
+
+.woocommerce ul.order_details {}
+
+.woocommerce ul.order_details::after,
+.woocommerce ul.order_details::before {}
+
+.woocommerce ul.order_details::after {}
+
+.woocommerce ul.order_details li {}
+
+.woocommerce ul.order_details li strong {}
+
+.woocommerce ul.order_details li:last-of-type {}
+
+.woocommerce .wc-bacs-bank-details-account-name {}
+
+.woocommerce .woocommerce-customer-details,
+.woocommerce .woocommerce-order-details,
+.woocommerce .woocommerce-order-downloads {}
+
+.woocommerce .woocommerce-customer-details:last-child,
+.woocommerce .woocommerce-order-details:last-child,
+.woocommerce .woocommerce-order-downloads:last-child {}
+
+.woocommerce .woocommerce-customer-details address {}
+
+.woocommerce .woocommerce-customer-details .woocommerce-customer-details--email,
+.woocommerce .woocommerce-customer-details .woocommerce-customer-details--phone {}
+
+.woocommerce .woocommerce-customer-details .woocommerce-customer-details--phone::before {}
+
+.woocommerce .woocommerce-customer-details .woocommerce-customer-details--email::before {}
+
+.woocommerce .woocommerce-widget-layered-nav-list {}
+
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item {}
+
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item::after,
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item::before {}
+
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item::after {}
+
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item a,
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item span {}
+
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item--chosen a::before {}
+
+.woocommerce .woocommerce-widget-layered-nav-dropdown__submit {}
+
+.woocommerce .widget_layered_nav_filters ul {}
+
+.woocommerce .widget_layered_nav_filters ul li {}
+
+.woocommerce .widget_layered_nav_filters ul li a {}
+
+.woocommerce .widget_layered_nav_filters ul li a::before {}
+
+.woocommerce .widget_price_filter .price_slider {}
+
+.woocommerce .widget_price_filter .price_slider_amount {}
+
+.woocommerce .widget_price_filter .price_slider_amount .button {}
+
+.woocommerce .widget_price_filter .ui-slider {}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle {}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range {}
+
+.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content {}
+
+.woocommerce .widget_price_filter .ui-slider-horizontal {}
+
+.woocommerce .widget_price_filter .ui-slider-horizontal .ui-slider-range {}
+
+.woocommerce .widget_price_filter .ui-slider-horizontal .ui-slider-range-min {}
+
+.woocommerce .widget_price_filter .ui-slider-horizontal .ui-slider-range-max {}
+
+.woocommerce .widget_rating_filter ul {}
+
+.woocommerce .widget_rating_filter ul li {}
+
+.woocommerce .widget_rating_filter ul li::after,
+.woocommerce .widget_rating_filter ul li::before {}
+
+.woocommerce .widget_rating_filter ul li::after {}
+
+.woocommerce .widget_rating_filter ul li a {}
+
+.woocommerce .widget_rating_filter ul li .star-rating {}
+
+.woocommerce .widget_rating_filter ul li.chosen a::before {}
+
+.pswp {}
+
+.woocommerce img.pswp__img,
+.woocommerce-page img.pswp__img {}
+
+button.pswp__button {}
+
+button.pswp__button,
+button.pswp__button--arrow--left::before,
+button.pswp__button--arrow--right::before,
+button.pswp__button:hover {}
+
+button.pswp__button--arrow--left,
+button.pswp__button--arrow--left:hover,
+button.pswp__button--arrow--right,
+button.pswp__button--arrow--right:hover {}
+
+button.pswp__button--close:hover {}
+
+button.pswp__button--zoom:hover {}
+
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message {}
+
+.woocommerce-error::after,
+.woocommerce-error::before,
+.woocommerce-info::after,
+.woocommerce-info::before,
+.woocommerce-message::after,
+.woocommerce-message::before {}
+
+.woocommerce-error::after,
+.woocommerce-info::after,
+.woocommerce-message::after {}
+
+.woocommerce-error::before,
+.woocommerce-info::before,
+.woocommerce-message::before {}
+
+.woocommerce-error .button,
+.woocommerce-info .button,
+.woocommerce-message .button {}
+
+.woocommerce-error li,
+.woocommerce-info li,
+.woocommerce-message li {}
+
+.rtl.woocommerce div.product div.images .flex-control-thumbs li {}
+
+.woocommerce-message {}
+
+.woocommerce-message::before {}
+
+.woocommerce-info {}
+
+.woocommerce-info::before {}
+
+.woocommerce-error {}
+
+.woocommerce-error::before {}
+
+.woocommerce-account .woocommerce::after,
+.woocommerce-account .woocommerce::before {}
+
+.woocommerce-account .woocommerce::after {}
+
+.woocommerce-account .addresses .title::after,
+.woocommerce-account .addresses .title::before {}
+
+.woocommerce-account .addresses .title::after {}
+
+.woocommerce-account .addresses .title h3 {}
+
+.woocommerce-account .addresses .title .edit {}
+
+.woocommerce-account ol.commentlist.notes li.note p.meta {}
+
+.woocommerce-account ol.commentlist.notes li.note .description p:last-child {}
+
+.woocommerce-account ul.digital-downloads {}
+
+.woocommerce-account ul.digital-downloads li {}
+
+.woocommerce-account ul.digital-downloads li::before {}
+
+.woocommerce-account ul.digital-downloads li .count {}
+
+#add_payment_method table.cart .product-thumbnail,
+.woocommerce-cart table.cart .product-thumbnail,
+.woocommerce-checkout table.cart .product-thumbnail {}
+
+#add_payment_method table.cart img,
+.woocommerce-cart table.cart img,
+.woocommerce-checkout table.cart img {}
+
+#add_payment_method table.cart td,
+#add_payment_method table.cart th,
+.woocommerce-cart table.cart td,
+.woocommerce-cart table.cart th,
+.woocommerce-checkout table.cart td,
+.woocommerce-checkout table.cart th {}
+
+#add_payment_method table.cart td.actions .coupon .input-text,
+.woocommerce-cart table.cart td.actions .coupon .input-text,
+.woocommerce-checkout table.cart td.actions .coupon .input-text {}
+
+#add_payment_method table.cart input,
+.woocommerce-cart table.cart input,
+.woocommerce-checkout table.cart input {}
+
+#add_payment_method .wc-proceed-to-checkout,
+.woocommerce-cart .wc-proceed-to-checkout,
+.woocommerce-checkout .wc-proceed-to-checkout {}
+
+#add_payment_method .wc-proceed-to-checkout::after,
+#add_payment_method .wc-proceed-to-checkout::before,
+.woocommerce-cart .wc-proceed-to-checkout::after,
+.woocommerce-cart .wc-proceed-to-checkout::before,
+.woocommerce-checkout .wc-proceed-to-checkout::after,
+.woocommerce-checkout .wc-proceed-to-checkout::before {}
+
+#add_payment_method .wc-proceed-to-checkout::after,
+.woocommerce-cart .wc-proceed-to-checkout::after,
+.woocommerce-checkout .wc-proceed-to-checkout::after {}
+
+#add_payment_method .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {}
+
+#add_payment_method .cart-collaterals .shipping_calculator .button,
+.woocommerce-cart .cart-collaterals .shipping_calculator .button,
+.woocommerce-checkout .cart-collaterals .shipping_calculator .button {}
+
+#add_payment_method .cart-collaterals .shipping_calculator .shipping-calculator-button::after,
+.woocommerce-cart .cart-collaterals .shipping_calculator .shipping-calculator-button::after,
+.woocommerce-checkout .cart-collaterals .shipping_calculator .shipping-calculator-button::after {}
+
+#add_payment_method .cart-collaterals .cart_totals p small,
+.woocommerce-cart .cart-collaterals .cart_totals p small,
+.woocommerce-checkout .cart-collaterals .cart_totals p small {}
+
+#add_payment_method .cart-collaterals .cart_totals table,
+.woocommerce-cart .cart-collaterals .cart_totals table,
+.woocommerce-checkout .cart-collaterals .cart_totals table {}
+
+#add_payment_method .cart-collaterals .cart_totals table tr:first-child td,
+#add_payment_method .cart-collaterals .cart_totals table tr:first-child th,
+.woocommerce-cart .cart-collaterals .cart_totals table tr:first-child td,
+.woocommerce-cart .cart-collaterals .cart_totals table tr:first-child th,
+.woocommerce-checkout .cart-collaterals .cart_totals table tr:first-child td,
+.woocommerce-checkout .cart-collaterals .cart_totals table tr:first-child th {}
+
+#add_payment_method .cart-collaterals .cart_totals table th,
+.woocommerce-cart .cart-collaterals .cart_totals table th,
+.woocommerce-checkout .cart-collaterals .cart_totals table th {}
+
+#add_payment_method .cart-collaterals .cart_totals table td,
+#add_payment_method .cart-collaterals .cart_totals table th,
+.woocommerce-cart .cart-collaterals .cart_totals table td,
+.woocommerce-cart .cart-collaterals .cart_totals table th,
+.woocommerce-checkout .cart-collaterals .cart_totals table td,
+.woocommerce-checkout .cart-collaterals .cart_totals table th {}
+
+#add_payment_method .cart-collaterals .cart_totals table small,
+.woocommerce-cart .cart-collaterals .cart_totals table small,
+.woocommerce-checkout .cart-collaterals .cart_totals table small {}
+
+#add_payment_method .cart-collaterals .cart_totals table select,
+.woocommerce-cart .cart-collaterals .cart_totals table select,
+.woocommerce-checkout .cart-collaterals .cart_totals table select {}
+
+#add_payment_method .cart-collaterals .cart_totals .discount td,
+.woocommerce-cart .cart-collaterals .cart_totals .discount td,
+.woocommerce-checkout .cart-collaterals .cart_totals .discount td {}
+
+#add_payment_method .cart-collaterals .cart_totals tr td,
+#add_payment_method .cart-collaterals .cart_totals tr th,
+.woocommerce-cart .cart-collaterals .cart_totals tr td,
+.woocommerce-cart .cart-collaterals .cart_totals tr th,
+.woocommerce-checkout .cart-collaterals .cart_totals tr td,
+.woocommerce-checkout .cart-collaterals .cart_totals tr th {}
+
+#add_payment_method .cart-collaterals .cross-sells ul.products li.product,
+.woocommerce-cart .cart-collaterals .cross-sells ul.products li.product,
+.woocommerce-checkout .cart-collaterals .cross-sells ul.products li.product {}
+
+#add_payment_method .checkout .col-2 h3#ship-to-different-address,
+.woocommerce-cart .checkout .col-2 h3#ship-to-different-address,
+.woocommerce-checkout .checkout .col-2 h3#ship-to-different-address {}
+
+#add_payment_method .checkout .col-2 .notes,
+.woocommerce-cart .checkout .col-2 .notes,
+.woocommerce-checkout .checkout .col-2 .notes {}
+
+#add_payment_method .checkout .col-2 .form-row-first,
+.woocommerce-cart .checkout .col-2 .form-row-first,
+.woocommerce-checkout .checkout .col-2 .form-row-first {}
+
+#add_payment_method .checkout .create-account small,
+.woocommerce-cart .checkout .create-account small,
+.woocommerce-checkout .checkout .create-account small {}
+
+#add_payment_method .checkout div.shipping-address,
+.woocommerce-cart .checkout div.shipping-address,
+.woocommerce-checkout .checkout div.shipping-address {}
+
+#add_payment_method .checkout .shipping_address,
+.woocommerce-cart .checkout .shipping_address,
+.woocommerce-checkout .checkout .shipping_address {}
+
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {}
+
+#add_payment_method #payment ul.payment_methods,
+.woocommerce-cart #payment ul.payment_methods,
+.woocommerce-checkout #payment ul.payment_methods {}
+
+#add_payment_method #payment ul.payment_methods::after,
+#add_payment_method #payment ul.payment_methods::before,
+.woocommerce-cart #payment ul.payment_methods::after,
+.woocommerce-cart #payment ul.payment_methods::before,
+.woocommerce-checkout #payment ul.payment_methods::after,
+.woocommerce-checkout #payment ul.payment_methods::before {}
+
+#add_payment_method #payment ul.payment_methods::after,
+.woocommerce-cart #payment ul.payment_methods::after,
+.woocommerce-checkout #payment ul.payment_methods::after {}
+
+#add_payment_method #payment ul.payment_methods li,
+.woocommerce-cart #payment ul.payment_methods li,
+.woocommerce-checkout #payment ul.payment_methods li {}
+
+#add_payment_method #payment ul.payment_methods li input,
+.woocommerce-cart #payment ul.payment_methods li input,
+.woocommerce-checkout #payment ul.payment_methods li input {}
+
+#add_payment_method #payment ul.payment_methods li img,
+.woocommerce-cart #payment ul.payment_methods li img,
+.woocommerce-checkout #payment ul.payment_methods li img {}
+
+#add_payment_method #payment ul.payment_methods li img+img,
+.woocommerce-cart #payment ul.payment_methods li img+img,
+.woocommerce-checkout #payment ul.payment_methods li img+img {}
+
+#add_payment_method #payment ul.payment_methods li:not(.woocommerce-notice)::after,
+#add_payment_method #payment ul.payment_methods li:not(.woocommerce-notice)::before,
+.woocommerce-cart #payment ul.payment_methods li:not(.woocommerce-notice)::after,
+.woocommerce-cart #payment ul.payment_methods li:not(.woocommerce-notice)::before,
+.woocommerce-checkout #payment ul.payment_methods li:not(.woocommerce-notice)::after,
+.woocommerce-checkout #payment ul.payment_methods li:not(.woocommerce-notice)::before {}
+
+#add_payment_method #payment ul.payment_methods li:not(.woocommerce-notice)::after,
+.woocommerce-cart #payment ul.payment_methods li:not(.woocommerce-notice)::after,
+.woocommerce-checkout #payment ul.payment_methods li:not(.woocommerce-notice)::after {}
+
+#add_payment_method #payment div.form-row,
+.woocommerce-cart #payment div.form-row,
+.woocommerce-checkout #payment div.form-row {}
+
+#add_payment_method #payment div.payment_box,
+.woocommerce-cart #payment div.payment_box,
+.woocommerce-checkout #payment div.payment_box {}
+
+#add_payment_method #payment div.payment_box input.input-text,
+#add_payment_method #payment div.payment_box textarea,
+.woocommerce-cart #payment div.payment_box input.input-text,
+.woocommerce-cart #payment div.payment_box textarea,
+.woocommerce-checkout #payment div.payment_box input.input-text,
+.woocommerce-checkout #payment div.payment_box textarea {}
+
+#add_payment_method #payment div.payment_box::-webkit-input-placeholder,
+.woocommerce-cart #payment div.payment_box::-webkit-input-placeholder,
+.woocommerce-checkout #payment div.payment_box::-webkit-input-placeholder {}
+
+#add_payment_method #payment div.payment_box:-moz-placeholder,
+.woocommerce-cart #payment div.payment_box:-moz-placeholder,
+.woocommerce-checkout #payment div.payment_box:-moz-placeholder {}
+
+#add_payment_method #payment div.payment_box:-ms-input-placeholder,
+.woocommerce-cart #payment div.payment_box:-ms-input-placeholder,
+.woocommerce-checkout #payment div.payment_box:-ms-input-placeholder {}
+
+#add_payment_method #payment div.payment_box .woocommerce-SavedPaymentMethods,
+.woocommerce-cart #payment div.payment_box .woocommerce-SavedPaymentMethods,
+.woocommerce-checkout #payment div.payment_box .woocommerce-SavedPaymentMethods {}
+
+#add_payment_method #payment div.payment_box .woocommerce-SavedPaymentMethods .woocommerce-SavedPaymentMethods-new,
+#add_payment_method #payment div.payment_box .woocommerce-SavedPaymentMethods .woocommerce-SavedPaymentMethods-token,
+.woocommerce-cart #payment div.payment_box .woocommerce-SavedPaymentMethods .woocommerce-SavedPaymentMethods-new,
+.woocommerce-cart #payment div.payment_box .woocommerce-SavedPaymentMethods .woocommerce-SavedPaymentMethods-token,
+.woocommerce-checkout #payment div.payment_box .woocommerce-SavedPaymentMethods .woocommerce-SavedPaymentMethods-new,
+.woocommerce-checkout #payment div.payment_box .woocommerce-SavedPaymentMethods .woocommerce-SavedPaymentMethods-token {}
+
+#add_payment_method #payment div.payment_box .woocommerce-SavedPaymentMethods .woocommerce-SavedPaymentMethods-new label,
+#add_payment_method #payment div.payment_box .woocommerce-SavedPaymentMethods .woocommerce-SavedPaymentMethods-token label,
+.woocommerce-cart #payment div.payment_box .woocommerce-SavedPaymentMethods .woocommerce-SavedPaymentMethods-new label,
+.woocommerce-cart #payment div.payment_box .woocommerce-SavedPaymentMethods .woocommerce-SavedPaymentMethods-token label,
+.woocommerce-checkout #payment div.payment_box .woocommerce-SavedPaymentMethods .woocommerce-SavedPaymentMethods-new label,
+.woocommerce-checkout #payment div.payment_box .woocommerce-SavedPaymentMethods .woocommerce-SavedPaymentMethods-token label {}
+
+#add_payment_method #payment div.payment_box .woocommerce-SavedPaymentMethods .woocommerce-SavedPaymentMethods-tokenInput,
+.woocommerce-cart #payment div.payment_box .woocommerce-SavedPaymentMethods .woocommerce-SavedPaymentMethods-tokenInput,
+.woocommerce-checkout #payment div.payment_box .woocommerce-SavedPaymentMethods .woocommerce-SavedPaymentMethods-tokenInput {}
+
+#add_payment_method #payment div.payment_box .wc-credit-card-form,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form {}
+
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number {}
+
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.visa,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.visa,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.visa,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.visa,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.visa,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.visa,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.visa,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.visa,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.visa {}
+
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.mastercard,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.mastercard,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.mastercard,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.mastercard,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.mastercard,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.mastercard,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.mastercard {}
+
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.laser,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.laser,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.laser,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.laser,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.laser,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.laser,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.laser,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.laser,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.laser {}
+
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.dinersclub,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.dinersclub,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.dinersclub,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.dinersclub,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.dinersclub,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.dinersclub,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.dinersclub {}
+
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.maestro,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.maestro,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.maestro,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.maestro,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.maestro,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.maestro,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.maestro,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.maestro,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.maestro {}
+
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.jcb,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.jcb,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.jcb,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.jcb,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.jcb,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.jcb,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.jcb,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.jcb,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.jcb {}
+
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.amex,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.amex,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.amex,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.amex,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.amex,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.amex,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.amex,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.amex,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.amex {}
+
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.discover,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.discover,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.discover,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.discover,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.discover,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.discover,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-cvc.discover,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-expiry.discover,
+.woocommerce-checkout #payment div.payment_box .wc-credit-card-form-card-number.discover {}
+
+#add_payment_method #payment div.payment_box span.help,
+.woocommerce-cart #payment div.payment_box span.help,
+.woocommerce-checkout #payment div.payment_box span.help {}
+
+#add_payment_method #payment div.payment_box .form-row,
+.woocommerce-cart #payment div.payment_box .form-row,
+.woocommerce-checkout #payment div.payment_box .form-row {}
+
+#add_payment_method #payment div.payment_box p:last-child,
+.woocommerce-cart #payment div.payment_box p:last-child,
+.woocommerce-checkout #payment div.payment_box p:last-child {}
+
+#add_payment_method #payment div.payment_box::before,
+.woocommerce-cart #payment div.payment_box::before,
+.woocommerce-checkout #payment div.payment_box::before {}
+
+#add_payment_method #payment .payment_method_paypal .about_paypal,
+.woocommerce-cart #payment .payment_method_paypal .about_paypal,
+.woocommerce-checkout #payment .payment_method_paypal .about_paypal {}
+
+#add_payment_method #payment .payment_method_paypal img,
+.woocommerce-cart #payment .payment_method_paypal img,
+.woocommerce-checkout #payment .payment_method_paypal img {}
+
+.woocommerce-terms-and-conditions {}
+
+.woocommerce-password-strength {}
+
+.woocommerce-password-strength.strong {}
+
+.woocommerce-password-strength.short {}
+
+.woocommerce-password-strength.bad {}
+
+.woocommerce-password-strength.good {}
+
+.woocommerce-password-hint {}
+
+#content.twentyeleven .woocommerce-pagination a {}
+
+.single-product .twentythirteen #reply-title,
+.single-product .twentythirteen #respond #commentform,
+.single-product .twentythirteen .entry-summary {}
+
+.single-product .twentythirteen p.stars {}
+
+.twentythirteen .woocommerce-breadcrumb {}
+
+.twentyfourteen ul.products li.product {}
+
+body:not(.search-results) .twentysixteen .entry-summary {}
+
+.twentysixteen .price ins {}

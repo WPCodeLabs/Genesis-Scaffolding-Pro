@@ -1,0 +1,77 @@
+/*!
+	Theme Name: Genesis Scaffolding Pro
+	Theme URI: https://www.wpcodelabs.com/
+	Description: A Genesis Theme Builder Theme
+	Author: Wp Code Labs
+	Author URI: https://www.wpcodelabs.com/
+	Version: 0.1.0
+	Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, custom-logo, featured-images, full-width-template, sticky-post, theme-options, threaded-comments
+	Template: genesis
+	Template Version: 2.3.0
+	License: GPL-2.0+
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Text Domain: genesis_scaffolding_pro
+*/
+
+// Definition files...must be included first
+@import 'include/variables';
+@import 'include/mixins';
+// Then everything else
+@import 'include/equalize';
+@import 'include/toolbox';
+@import 'include/layouts';
+@import 'include/buttons';
+@import 'include/typeography';
+@import 'include/navigation';
+@import 'include/forms';
+@import 'include/lists';
+@import 'include/embeds';
+@import 'include/comments';
+@import 'include/entry';
+@import 'include/header';
+@import 'include/footer';
+@import 'include/sidebar';
+@import 'include/woocommerce';
+
+// Typeography
+body {
+    font-family: $sans-serif;
+    font-weight: normal;
+    line-height: parseInt( $spacing );
+    -webkit-font-smoothing: antialiased;
+    color: $font-color;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #fff;
+}
+body,
+body > div {
+	@include fontSize( $base-font-size );
+}
+.genesis-skip-link {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron-area {
+    padding: ( $padding * 2 ) $padding;
+    background-color: #f4f4f4;
+    .jumbotron-area-inner {/**/}
+}
+
+/* calendar widget */
+#wp-calendar {width: 100%; }
+#wp-calendar caption { text-align: right; color: #333; font-size: 12px; margin-top: 10px; margin-bottom: 15px; }
+#wp-calendar thead { font-size: 10px; }
+#wp-calendar thead th { padding-bottom: 10px; }
+#wp-calendar tbody { color: #aaa; }
+#wp-calendar tbody td { background: #f5f5f5; border: 1px solid #fff; text-align: center; padding:8px;}
+#wp-calendar tbody td:hover { background: #fff; }
+#wp-calendar tbody .pad { background: none; }
+#wp-calendar tfoot #next { font-size: 10px; text-transform: uppercase; text-align: right; }
+#wp-calendar tfoot #prev { font-size: 10px; text-transform: uppercase; padding-top: 10px; }
+
+.widget_calendar tfoot td {
+	border: 0;
+}

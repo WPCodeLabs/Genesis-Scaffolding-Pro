@@ -1,0 +1,60 @@
+.comment-respond,
+.entry-comments,
+.entry-pings {
+	margin-bottom: $spacing;
+}
+
+.comment-content {
+	clear: both;
+	word-wrap: break-word;
+}
+
+.comment-list li {
+	/**/
+}
+.entry-comments {
+	/**/
+	.comment-author {
+		margin-bottom: 0;
+	}
+}
+
+.entry-pings {
+	/**/
+	.reply {
+		display: none;
+	}
+}
+
+.comment-list {
+    margin: 0;
+    .comment { // all comments
+        padding: $padding $padding 0 $padding;
+        margin-bottom: $spacing;
+        background: #fff;
+        border-top: 1px solid $border-color;
+        border-bottom: 1px solid $border-color;
+        article {
+            padding-bottom: $padding;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+        .avatar {
+            float: left;
+            margin: 0 $gutter $gutter 0;
+        }
+        .children {
+            /**/
+        }
+        .even {
+        	/**/
+        }
+        .odd {
+        	/**/
+        }
+    }
+    > .comment { // first level deep
+        border: 1px solid $border-color;
+    }
+}

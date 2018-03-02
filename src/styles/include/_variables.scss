@@ -1,0 +1,101 @@
+
+
+
+@function parseInt($n) { /* 2 */
+  @return $n / ($n * 0 + 1);
+}
+@function pxToRm( $size ) {
+	$remSize: parseInt( $size ) / parseInt( 16 ); // assumes base font size of 16px...
+	@return $remSize + 0rem;
+}
+@function pxToEm( $size ) {
+	$emSize: parseInt( $size ) / parseInt( $base-font-size );
+	@return $emSize + 0em;
+}
+
+
+/*  TYPOGRAPHY --------------------------------------------------------------- */
+	$serif      : Palatino, Georgia, Times, serif !default;
+	$sans-serif : Roboto,'Open Sans', Arial, sans-serif !default;
+	$headline : Montserrat, Roboto, 'Open Sans', Arial, sans-serif !default;
+	$monospaced : 'Courier', monospace !default;
+
+	$base-font-size  : 16px !default;
+	$tiny-font-size  : .6em;
+	$small-font-size : .85em !default;
+	$large-font-size : 1.25em !default;
+
+/*  LAYOUT ------------------------------------------------------------------- */
+	$breakpoints: (
+		xs : 481px,
+		sm : 641px,
+		md : 769px,
+		lg : 1024px,
+		xl : 1161px,
+		hd : 1441px,
+    ) !default;
+
+    $spacing : 1.618rem !default; // base spacing of elements (used for line height, padding, and some marging)
+
+    $padding : 1.618em !default;
+
+	$gutter : $spacing / 2 !default; // Used to create gutters on the grid
+
+	$grid-columns : 12; // Number of columns to create
+
+	$max-width : 1270.56px !default; // Maximum width any element can occupy at the base font size
+
+	$line-height: 1.618 !default;
+
+    $primary-sidebar-fixed-width : 300px !default;
+
+	$secondary-sidebar-fixed-width : 125px !default;
+
+    $layout-breakpoint : 'lg' !default; // the default breakpoint to break layout
+
+    $navigation-breakpoint : $layout-breakpoint !default; // the breakpoint to transition mobile => desktop navigation
+
+	$header-breakpoint : $navigation-breakpoint !default; // the breakpoint the header transitions
+
+/*  Colors ------------------------------------------------------------------- */
+	$brand-yellow : #D49F0E;
+
+	$brand-blue : #0069AA;
+
+	$font-color : #505050;
+
+	$light-font-color: #aaaaaa;
+
+	$primary-color : $brand-blue;
+
+	$secondary-color : $brand-yellow;
+
+	$success-color : #3adb76;
+
+	$warning-color : #ffae00;
+
+	$alert-color : #cc4b37;
+
+	$primary-gradient : linear-gradient( 135deg, $primary-color 0%, darken( $primary-color, 5% ) 100% );
+
+	$link-color    : $primary-color;
+
+	$link-hover-color : darken( $link-color, 10% );
+
+	$border-radius: 0;
+
+	$border-color : #eeeeee;
+
+	$navigation-background: #ffffff;
+
+	$facebook-color   : #3b5998 !default;
+	$twitter-color    : #55acee !default;
+	$googleplus-color : #dd4b39 !default;
+	$youtube-color    : #bb0000 !default;
+	$linkedin-color   : #007bb5 !default;
+	$instagram-color  : #125688 !default;
+	$whatsapp-color   : #4dc247 !default;
+	$pinterest-color  : #cb2027 !default;
+	$rss-color        : #ff6600 !default;
+
+	$box-shadow: 0 0 20px rgba(0,0,0,.1);

@@ -1,0 +1,11 @@
+body.woocommerce {
+    a.button,
+    button.button,
+    input.button,
+    #respond input#submit {
+        @extend .button;
+        &.alt {
+            @extend .button;
+        }
+    }
+}

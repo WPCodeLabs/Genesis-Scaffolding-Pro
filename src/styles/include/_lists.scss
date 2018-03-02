@@ -1,0 +1,257 @@
+/* -----------------------------------------------------------------------------
+ *                             __    _      __
+ *                            / /   (_)____/ /______
+ *                           / /   / / ___/ __/ ___/
+ *                          / /___/ (__  ) /_(__  )
+ *                         /_____/_/____/\__/____/
+ *
+ * ---------------------------------------------------------------------------*/
+/* -----------------------------------------------------------------------------
+  *  UNORDERED LISTS
+  * ---------------------------------------------------------------------------*/
+ul {
+    list-style-type    : none;
+    list-style-position: inside;
+    font-family        : inherit;
+    font-size          : inherit;
+    line-height        : 2;
+    margin-left        : 0;
+    margin-bottom      : $spacing;
+
+    .entry-content & {
+        list-style-type    : disc;
+        list-style-position: outside;
+        padding-left       : 1.3em;
+
+        &.nobullet {
+            list-style-type    : none;
+            list-style-position: inside;
+            padding-left       : 0;
+        }
+
+        &.bordered,
+        &.bordered li ul {
+            padding-left: 0;
+        }
+
+        ul {
+            list-style-type: inherit;
+            padding-left   : $padding;
+        }
+    }
+    // Remove bullets from gravity forms lists
+    .gform_body & {
+        list-style-type    : none;
+        list-style-position: inside;
+        padding-left       : 0;
+    }
+
+    li {
+        margin-left: 0;
+
+        > ul {
+            list-style-type: inherit;
+            margin-bottom  : 0;
+        }
+    }
+
+    &.square {
+        list-style-type: square;
+    }
+
+    &.circle {
+        list-style-type: circle;
+    }
+
+    &.disc {
+        list-style-type: disc;
+    }
+
+    &.bordered {
+        list-style-type    : none;
+        list-style-position: inside;
+        padding-left       : 0;
+
+        li {
+            ul {
+                margin-left: 0.3em;
+
+                li {
+                    border-left : 1px solid $font-color;
+                    padding-left: 1em;
+                }
+            }
+        }
+    }
+}
+/* -----------------------------------------------------------------------------
+ *  ORDERED LISTS
+ * ---------------------------------------------------------------------------*/
+ol {
+    list-style-type    : none;
+    list-style-position: inside;
+    font-family        : inherit;
+    font-size          : inherit;
+    line-height        : $line-height;
+    margin-left        : 0;
+    margin-bottom      : $spacing;
+    counter-reset      : list;
+
+    .entry-content & {
+        list-style-type    : decimal;
+        list-style-position: outside;
+        padding-left       : 1.3em;
+        &.nobullet {
+            list-style-type    : none;
+            list-style-position: inside;
+            padding-left       : 0;
+        }
+
+        ol {
+            list-style-type: inherit;
+        }
+    }
+
+    li {
+        margin-left: 0;
+
+        &::before {
+            font-weight: bold;
+        }
+
+        ol {
+            list-style-type: inherit;
+            margin-bottom  : 0;
+        }
+    }
+
+    &.decimal {
+        list-style-type: decimal;
+
+        &.strong {
+            list-style-type: none;
+
+            li::before {
+                content          : counter( list, decimal )'. ';
+                counter-increment: list;
+            }
+        }
+    }
+
+    &.decimal-leading-zero {
+        list-style-type: decimal-leading-zero;
+
+        &.strong {
+            list-style-type: none;
+
+            li::before {
+                content          : counter( list, decimal-leading-zero )'. ';
+                counter-increment: list;
+            }
+        }
+    }
+
+    &.lower-roman {
+        list-style-type: lower-roman;
+
+        &.strong {
+            list-style-type: none;
+
+            li::before {
+                content          : counter( list, lower-roman )'. ';
+                counter-increment: list;
+            }
+        }
+    }
+
+    &.upper-roman {
+        list-style-type: upper-roman;
+
+        &.strong {
+            list-style-type: none;
+
+            li::before {
+                content          : counter( list, upper-roman )'. ';
+                counter-increment: list;
+            }
+        }
+    }
+
+    &.lower-alpha {
+        list-style-type: lower-alpha;
+        &.strong {
+            list-style-type: none;
+            li::before {
+                content          : counter( list, lower-alpha )'. ';
+                counter-increment: list;
+            }
+        }
+    }
+
+    &.upper-alpha {
+        list-style-type: upper-alpha;
+
+        &.strong {
+            list-style-type: none;
+
+            li::before {
+                content          : counter( list, upper-alpha )'. ';
+                counter-increment: list;
+            }
+        }
+    }
+
+    &.counter {
+        list-style-type: none;
+
+        li::before {
+            counter-increment: list;
+            content          : counters( list, '.' )'. ';
+        }
+    }
+
+    &.bordered {
+        list-style-position: inside;
+
+        li {
+            margin-left: 0;
+
+            ol,
+            ul {
+                padding-left       : 0.2em;
+                list-style-position: inside;
+
+                li {
+                    border-left : 1px solid $border-color;
+                    padding-left: $spacing;
+                }
+            }
+        }
+    }
+}
+/* -----------------------------------------------------------------------------
+ *  DEFINITION LISTS
+ * ---------------------------------------------------------------------------*/
+dl {
+    dt {
+        margin-bottom: $spacing;
+        font-weight  : 600;
+    }
+
+    dd {
+        margin-bottom: $spacing;
+    }
+}
+
+ul,
+ol {
+	&.col2 {
+		columns: 2;
+	}
+	&.col3 {
+		columns: 3;
+	}
+	&.col4 {
+		columns: 4;
+	}
+}

@@ -1,0 +1,29 @@
+.sidebar {
+	.widget {
+		font-size: .9em;
+		li {
+			color: $light-font-color;
+			line-height: 1.25;
+			border-top: 1px solid $border-color;
+			// &:first-child {
+			// 	border: none;
+			// }
+			a, a:link {
+				padding: 1em 0;
+				display: inline-block;
+				color: $light-font-color;
+				// border-bottom: 1px solid $border-color;
+				&:hover, &:focus {
+					color: $link-color;
+					// border-color: $link-color;
+				}
+			}
+			.children {
+				// padding-left: 1em;
+				// border-left: 1px solid $border-color;
+				// border-top: 1px solid $border-color;
+				margin-left: 1em;
+			}
+		}
+	}
+}

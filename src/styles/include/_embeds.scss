@@ -1,0 +1,65 @@
+.alignnone {
+    margin: 0;
+}
+.alignleft {
+    float: left;
+    margin: 0 $spacing $spacing 0;
+}
+
+.alignright {
+    float: right;
+    margin: 0 0 $spacing $spacing;
+}
+
+.aligncenter {
+    margin: 0 auto $spacing;
+}
+@each $name, $size in $breakpoints {
+    @media ( min-width: #{$size} ) {
+        .#{$name}-alignnone {
+            margin: 0;
+            float: none;
+        }
+        .#{$name}-alignleft {
+            float: left;
+            margin: 0 $spacing $spacing 0;
+        }
+        .#{$name}-alignright {
+            float: right;
+            margin: 0 0 $spacing $spacing;
+        }
+        .#{$name}-aligncenter {
+            margin: 0 auto $spacing;
+            float: none;
+        }
+    }
+    @media ( max-width: "#{$size} - 1" ) {
+        .below-#{$name}-alignnone {
+            margin: 0;
+            float: none;
+        }
+        .below-#{$name}-alignleft {
+            float: left;
+            margin: 0 $spacing $spacing 0;
+        }
+        .below-#{$name}-alignright {
+            float: right;
+            margin: 0 0 $spacing $spacing;
+        }
+        .below-#{$name}-aligncenter {
+            margin: 0 auto $spacing;
+            float: none;
+        }
+    }
+}
+.gallery {
+    text-align: center;
+    margin: 0 auto $padding;
+    @include flexbox( 'row' );
+    flex-wrap: wrap;
+    justify-content: center;
+    > .gallery-item {
+        vertical-align: top;
+        padding: 3px;
+    }
+}

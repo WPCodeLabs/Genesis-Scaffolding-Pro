@@ -1,0 +1,102 @@
+{
+	"settings" : {
+		"dev_mode" : true
+	},
+	"styles" : {
+		"google_fonts" : "//fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900|Roboto:300,400,500,700"
+	},
+	"layout" : {
+		"global": {
+			"genesis_before_header":[
+				"genesis_do_subnav"
+			],
+			"genesis_header":[
+				"genesis_do_header"
+			],
+			"genesis_after_header":[
+				"genesis_do_nav",
+				"gsp_do_breadcrumbs"
+			],
+			"genesis_before_loop":[
+				"genesis_do_cpt_archive_title_description",
+				"genesis_do_posts_page_heading",
+				"genesis_do_date_archive_title",
+				"genesis_do_taxonomy_title_description",
+				"genesis_do_author_title_description",
+				"genesis_do_blog_template_heading",
+				"gsp_do_widget_areas"
+			],
+			"genesis_entry_header":[
+				"genesis_do_post_format_image",
+				"genesis_do_post_title",
+				"genesis_post_info",
+				"genesis_do_post_image"
+			],
+			"genesis_entry_content":[
+				"genesis_do_post_image",
+				"genesis_do_post_content",
+				"genesis_do_post_content_nav",
+				"genesis_do_post_permalink"
+			],
+			"genesis_entry_footer":[
+				"genesis_post_meta"
+			],
+			"genesis_after_entry_content":[
+				"gsp_do_widget_areas"
+			],
+			"genesis_after_loop":[
+				"gsp_do_widget_areas"
+			],
+			"genesis_after_content":[
+				"gsp_do_widget_areas"
+			],
+			"genesis_before_content_sidebar_wrap":[
+				"gsp_do_widget_areas"
+			],
+			"genesis_after_content_sidebar_wrap":[
+				"gsp_do_widget_areas"
+			],
+			"genesis_before_footer":[
+				"gsp_do_widget_areas"
+			],
+			"genesis_footer":[
+				"genesis_do_footer"
+			]
+		},
+		"archive" : {
+		},
+		"frontpage" : {
+		}
+	},
+	"jumbotron" : {
+		"global" : [
+			"gsp_jumbotron_headlines",
+			"genesis_post_info",
+			"gsp_do_breadcrumbs",
+			"gsp_do_widget_areas"
+		],
+		"frontpage" : [
+
+		]
+	},
+	"navigation" : {
+		"primary" : "overlay",
+		"secondary" : "combined"
+	},
+	"wraps" : [
+		"header",
+		"menu-primary",
+		"menu-secondary",
+		"site-inner",
+		"before-header-widgets",
+		"after-header-widgets",
+		"after-content-widgets",
+		"before-footer-widgets",
+		"footer-widgets",
+		"footer",
+		"jumbotron",
+		"breadcrumbs"
+	]
+}
+
+

@@ -1,0 +1,316 @@
+@mixin navbar {
+    .sub-menu {
+        left: -9999px;
+        opacity: 0;
+        position: absolute;
+        transition: opacity .4s ease-in-out;
+        z-index: 99;
+        display: block;
+        width: auto;
+        min-width: 100%;
+         border: 1px solid $border-color;
+        li {
+            display: block;
+        }
+        a, a:link {
+            white-space: nowrap;
+        }
+    }
+    .menu-item {
+        display: inline-block;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        text-align: left;
+
+    }
+    > .menu-item {
+        &:hover, &:focus, &.sfHover {
+            > .sub-menu {
+                left: auto;
+                opacity: 1;
+            }
+        }
+        .menu-item {
+            &:hover, &:focus, &.sfHover {
+                > .sub-menu {
+                    top: 0;
+                    left: 100%;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    .sub-menu-toggle {
+        display: none;
+    }
+}
+
+@mixin mobileNav {
+    .menu-item { // li
+        display: block;
+        text-align: left;
+        a, a:link {
+            width: 100%;
+        }
+    }
+    .sub-menu {
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+// Colors
+.genesis-nav,
+.genesis-responsive-nav {
+    // background-color: #fff;
+    border-top: 1px solid $border-color;
+    border-bottom: 1px solid $border-color;
+    .sub-menu {
+        background-color: #fff;
+    }
+    a, a:link {
+        color: lighten( $font-color, 10% );
+        padding: $gutter;
+        &:hover, &:focus {
+            background-color: $link-color;
+            color: #fff;
+        }
+    }
+    .site-footer & {
+        border: none;
+    }
+    li.button a {
+    	@extend .button;
+    	margin-bottom: 0;
+    	&:hover, &:focus {
+    		background-color: darken( $link-color, 10%);
+    	}
+    }
+}
+
+// Nav primary placeholders
+#genesis-nav-primary {
+	/**/
+	.menu {/**/}
+	li {/**/}
+    .sub-menu {
+    	li {/**/}
+    	a, a:link {
+    	    &:hover, &:focus {
+    	    	background: transparent;
+    	    	color: $link-color;
+    	    }
+    	}
+    }
+    a, a:link {
+    	/**/
+        &:hover, &:focus {
+        	background: transparent;
+        	color: $link-color;
+        }
+    }
+    li.button a {
+    	@extend .button;
+    	margin-bottom: 0;
+    	&:hover, &:focus {
+    		background-color: darken( $link-color, 10%);
+    	}
+    }
+}
+// Nav primary placeholders
+#genesis-nav-primary {
+	/**/
+	.menu {/**/}
+	li {/**/}
+    .sub-menu {
+    	li {/**/}
+    	a, a:link {
+    		/**/
+    	    &:hover, &:focus {/**/}
+    	}
+    }
+    a, a:link {
+    	/**/
+        &:hover, &:focus {/**/}
+    }
+}
+// Nav secondary placeholders
+#genesis-nav-secondary {
+	/**/
+	.menu {/**/}
+	li {/**/}
+    .sub-menu {
+    	li {/**/}
+    	a, a:link {
+    		/**/
+    	    &:hover, &:focus {/**/}
+    	}
+    }
+    a, a:link {
+    	/**/
+        &:hover, &:focus {/**/}
+    }
+}
+
+// Universal defaults
+.genesis-nav-menu {
+    clear: both;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    li {
+        list-style-type: none;
+        list-style-position: inside;
+        position: relative;
+    }
+    a {
+        padding: $gutter;
+        text-decoration: none;
+        display: block;
+    }
+    .sub-menu-toggle {
+        position: absolute;
+        background: none;
+        right: 0;
+        top: 0;
+        color: $font-color;
+        line-height: inherit;
+        &.dashicons, &.dashicons-before:before {
+            line-height: inherit;
+            height: auto;
+            font-size: inherit;
+        }
+    }
+}
+.menu-toggle {
+    display: block;
+    width: 100%;
+}
+
+.genesis-nav {
+    padding: 0 $padding;
+    margin: 0 ( 0 - $gutter );
+    .genesis-nav-menu {
+        @include navbar();
+    }
+}
+.genesis-responsive-nav {
+    display: none;
+    .genesis-nav-menu {
+        @include mobileNav();
+    }
+}
+// Below menu breakpoint
+@include breakpoint( 'max-width :' map-get( $breakpoints, $navigation-breakpoint ) ) {
+    .genesis-responsive-nav {
+        &.offcanvas {
+            display: block;
+            visibility: hidden;
+            position: fixed;
+            right: 0;
+            transform: translate3d( 300px, 0, 0 );
+            top: 0;
+            height: 100%;
+            width: 300px;
+            z-index: 999;
+            transition: transform .5s ease-in-out;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            backface-visibility: hidden;
+            &.activating, &.deactivating, &.activated {
+                visibility: visible;
+            }
+            &.activated, &.activating {
+                transform: translate3d( 0, 0, 0 );
+            }
+        }
+        &.overlay {
+            display: block;
+            // display: flex;
+            // justify-content: center;
+            // align-items: center;
+            visibility: hidden;
+            position: fixed;
+            right: 0;
+            left: 0;
+            top: 0;
+            bottom: 0;
+            opacity: 0;
+            z-index: 999;
+            transition: opacity .5s ease-in-out;
+            overflow-x: hidden;
+            overflow-y: scroll;
+            backface-visibility: hidden;
+            &.activating, &.deactivating, &.activated {
+                visibility: visible;
+            }
+            &.activated, &.activating {
+                opacity: 1;
+            }
+        }
+        &.offcanvas, &.overlay {
+            padding-top: 3rem;
+            > .menu-toggle {
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+        }
+    }
+}
+// Above menu breakpoint
+@include breakpoint( $navigation-breakpoint ) {
+    .menu-toggle,
+	.sub-menu-toggle {
+	    display: none;
+	    visibility: hidden;
+    }
+    .genesis-responsive-nav {
+        display: block;
+        margin: 0 ( 0 - $gutter );
+        // padding: 0 $padding;
+        .genesis-nav-menu {
+            @include navbar();
+        }
+    }
+}
+
+.pagination {
+    margin-bottom: $spacing;
+    @include clearfix();
+    ul {
+        list-style-type: none;
+        list-style-position: inside;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: inline-block;
+    }
+    a, a:link {
+        @extend .button;
+        padding: $gutter;
+    }
+}
+
+.breadcrumbs-wrapper,
+.woocommerce .breadcrumbs-wrapper {
+    padding: $gutter $padding;
+    border: 1px solid $border-color;
+    background-color:#EBEBEB;
+    .breadcrumb,
+    .woocommerce-breadcrumb {
+        font-size: .9em;
+        color: $light-font-color;
+        margin: 0;
+        padding: 0;
+        a, a:link {
+            color: $light-font-color;
+            &:hover, &:focus {
+                color: $link-color;
+            }
+        }
+
+    }
+}

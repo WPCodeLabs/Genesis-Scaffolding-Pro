@@ -1,0 +1,75 @@
+@mixin button( $background-color, $color ) {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: inherit;
+	padding: 0.85em 1em;
+	border: 1px solid transparent;
+	border-radius: 0;
+	transition: background-color 0.25s ease-out, color 0.25s ease-out;
+	font-size: inherit;
+	line-height: 1;
+	text-align: center;
+	cursor: pointer;
+	background-color: $background-color;
+	color: $color;
+}
+
+// Links section
+a {
+	background-color: transparent;
+	color: $link-color;
+	&:hover, &:focus {
+		color: $link-hover-color;
+	}
+}
+a:link {
+	text-decoration: none;
+	cursor: pointer;
+	transition: all .25s ease;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+a.button {
+	@include button( $link-color, #fefefe );
+	// Hover styles
+    &:hover, &:focus {
+	    background-color: darken( $link-color, 10%);
+    }
+    &.tiny {
+    	font-size: $tiny-font-size;
+    }
+    &.small {
+    	font-size: $small-font-size;
+    }
+    &.large {
+    	font-size: $large-font-size;
+    }
+    &.primary {
+    	background-color: $primary-color;
+    }
+    &.secondary {
+    	background-color: $secondary-color;
+    }
+
+    &.outline {
+    	background-color: transparent;
+    	border-color: $link-color;
+    }
+    &.block {
+    	display: block;
+    	width: 100%;
+    }
+}
+
+.inverted {
+	button,
+	input[type="button"],
+	input[type="reset"],
+	input[type="submit"],
+	a.button {
+		background-color: $brand-yellow;
+	}
+}

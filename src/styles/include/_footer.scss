@@ -1,0 +1,23 @@
+.footer-widgets {
+    .widget-area {
+        width: 100%;
+    }
+    @include breakpoint( $layout-breakpoint ) {
+        &.gsp-container, > .wrap > .row {
+            @include clearfix();
+            @include flexbox( 'row' );
+            flex-basis: auto;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin: 0 ( 0 - $gutter );
+        }
+        .widget-area {
+            padding: 0 $gutter;
+            flex: 1;
+        }
+        .widget {
+            padding: $padding;
+            border: 1px solid $border-color;
+        }
+    }
+}

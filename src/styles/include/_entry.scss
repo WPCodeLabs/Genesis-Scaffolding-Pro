@@ -1,0 +1,44 @@
+// Archives
+.entry-image-link {
+	/**/
+	img {/**/}
+}
+.archive-description,
+.posts-page-description {
+	/**/
+	.archive-title {
+		/**/
+	}
+}
+.entry-title,
+.archive-title {
+	margin-bottom: 1rem;
+	a, a:link {/**/}
+}
+.entry-header {
+	margin-bottom: $spacing;
+}
+.entry-content {
+	margin-bottom: $spacing;
+}
+.entry-meta {
+	font-size: .9em;
+	color: $light-font-color;
+	font-style: italic;
+	a, a:link {
+	    color: $light-font-color;
+	    &:hover, &:focus {
+	        color: $link-color;
+	    }
+	}
+	.entry-categories, .entry-tags {
+		display: block;
+	}
+
+}
+
+@include breakpoint( 'md' ) {
+	.entry-content {
+		font-size: 1.1em;
+	}
+}

@@ -1,0 +1,458 @@
+/* -----------------------------------------------------------------------------
+ * Influenced by Eric Meyer's reset.css http://meyerweb.com/eric/tools/css/reset
+ * & Normalize.css http://necolas.github.com/normalize.css
+ * ---------------------------------------------------------------------------*/
+*,
+*::after,
+*::before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html,
+input[type="search"] {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html,
+body,
+body div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+time,
+mark,
+audio,
+video {
+	background: transparent;
+	border: 0;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+// HTML5 Element display reset for non supporting browsers
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+	display: block;
+}
+
+// Corrects inline-block display not defined in IE6/7/8/9 & FF3
+audio,
+canvas,
+video {
+	display: inline-block;
+	//display: inline;
+	zoom: 1;
+}
+
+// Prevents modern browsers from displaying 'audio' without controls
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+// Embedded content - Improves image quality when scaled in IE7, & make images responsive
+img {
+	-ms-interpolation-mode: bicubic;
+	height: auto;
+	vertical-align: top;
+}
+
+embed,
+iframe,
+object,
+img {
+	max-width: 100%;
+}
+
+// Corrects overflow displayed oddly in IE9
+svg:not(:root) {
+	overflow: hidden;
+}
+// Display responsive images / figures
+figure {
+	display: table;
+	table-layout: fixed;
+	img {
+		display: block;
+	}
+	figcaption {
+		display: table-caption;
+		caption-side: bottom;
+	}
+}
+
+// Addresses styling for 'hidden' attribute not present in IE7/8/9,
+//FF3,
+//S4 Known issue:no IE6 support
+[hidden] {
+	display: none;
+}
+
+// 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units - http://clagnut.com/blog/348/#c790
+// 2. Keeps page centred in all browsers regardless of content height
+// 3. Prevents iOS text size adjust after orientation change, without disabling user zoom.
+// www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+html {
+	overflow-y: scroll;
+	font-size: 100%;
+	-webkit-font-smoothing: antialiased;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+// Addresses font-family inconsistency between 'textarea' and other form elements
+html,
+button,
+input,
+select,
+textarea {
+	font-family: $sans-serif;
+}
+
+// Reset link elements, & address `outline` inconsistency between Chrome and other browsers
+a {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	background: transparent;
+	&:focus {
+		outline: thin dotted;
+	}
+	&:active, &:hover {
+		outline: 0;
+	}
+	img {
+		vertical-align: top;
+	}
+}
+
+// Normalize inserted and deleted text elements
+ins {
+	background-color: #ff0;
+	color: #000;
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+// Addresses styling not present in IE7/8/9, S5, Chrome
+
+abbr,
+acronym {
+	text-transform: uppercase;
+	font-size: 90%;
+	color: #222;
+	cursor: help;
+}
+abbr {
+	text-transform: none;
+	&[title] {
+	border-bottom: 1px dotted;
+	}
+}
+// Addresses style set to 'bolder' in FF3+, S4/5, Chrome
+b,
+strong {
+	font-weight: bold;
+	line-height: inherit;
+}
+
+em {
+	font-style: italic;
+}
+
+// 1. Addresses CSS quotes not supported in IE6/7
+// 2. Addresses quote property not supported in S4
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+	content: "";
+	content: none;
+}
+
+// Addresses styling not present in S5, Chrome
+dfn {
+	font-style: italic;
+}
+
+hr {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+// Addresses styling not present in IE6/7/8/9
+mark {
+	background: #ff0;
+	color: #000;
+	font-style: italic;
+	font-weight: bold;
+}
+
+// Corrects font family set oddly in IE6, S4/5, Chrome en.wikipedia.org/wiki/User:Davidgothberg/Test59
+p,
+pre {
+	margin: 0 0 1.618em;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: $monospaced;
+	font-size: inherit;
+	overflow-x: scroll;
+}
+
+// Improves readability of pre-formatted text in all browsers
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	white-space: pre-line;
+	word-wrap: normal;
+	code {
+		white-space: pre;
+	}
+}
+
+small {
+	font-size: 0.75em;
+	line-height: inherit;
+}
+
+// Prevents sub and sup affecting line-height in all browsers - gist.github.com/413930
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+nav ul,
+nav ol {
+	list-style: none;
+	list-style-image: none;
+}
+
+// 1. Correct color not being inherited in IE 6/7/8/9.
+// 2. Correct text not wrapping in Firefox 3.
+// 3. Correct alignment displayed oddly in IE 6/7.
+legend {
+	white-space: normal;
+	//margin-left: -7px;
+}
+
+// 1. Corrects font size not being inherited in all browsers
+// 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome
+// 3. Improves appearance and consistency in all browsers
+button,
+input,
+select,
+textarea {
+	font-size: 100%;
+	margin: 0;
+	vertical-align: baseline;
+	//vertical-align: middle;
+}
+
+// Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
+button,
+input {
+	line-height: normal;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+// 1. Improves usability and consistency of cursor style between image-type 'input' and others
+// 2. Corrects inability to style clickable 'input'types in iOS
+// 3. Removes inner spacing in IE7 without affecting normal text inputs. Known issue:inner spacing remains in IE6
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	cursor: pointer;
+	//overflow: visible;
+}
+
+button[disabled],
+input[disabled] {
+	cursor: default;
+}
+
+// 1. Addresses box sizing set to content-box in IE8/9
+// 2. Removes excess padding in IE8/9
+input[type="checkbox"],
+input[type="radio"] {
+	vertical-align: text-top;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+// 1. Addresses appearance set to searchfield in S5,Chrome
+// 2. Addresses box-sizing set to border-box in S5,Chrome (include -moz to future-proof)
+input[type="search"] {
+	appearance: textfield;
+}
+
+// Removes inner padding that is displayed in S5,Chrome on OS X
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+
+// Removes inner padding and border in FF3+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+// 1. Removes default vertical scrollbar in IE6/7/8/9
+// 2. Improves readability and alignment in all browsers
+textarea {
+	overflow: auto;
+	vertical-align: top;
+}
+
+// Tables - Remove most spacing between table cells
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-size: inherit;
+	font: 100%;
+}
+
+th {
+	font-weight: bold;
+	vertical-align: bottom;
+}
+
+td {
+	font-weight: normal;
+	vertical-align: top;
+}
+
+// clearfix + clearfix with more semantic name
+.clearfix,
+.group
+.author-box,
+.clearfix,
+.entry,
+.entry-content,
+.footer-widgets,
+.nav-primary,
+.nav-secondary,
+.pagination,
+.site-container,
+.site-footer,
+.site-header,
+.site-inner,
+.widget,
+.wrap{
+	@include clearfix();
+}
+
+p:empty {
+  display: none;
+}
